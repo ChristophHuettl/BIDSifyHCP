@@ -37,4 +37,4 @@ and for more information on the HCP please refer to: https://www.humanconnectome
 #happyBIDSifying
 
 Authors: 
-Christoph V. M. Huettl, Luise da Costa Zemsch, Leon Martin, Rico A. Schmidt, Michael Schirner and Petra Ritter
+Christoph V. M. Huettl, Luise da Costa Zemsch, Leon Martin, Rico A. Schmitt, Michael Schirner and Petra Ritter
