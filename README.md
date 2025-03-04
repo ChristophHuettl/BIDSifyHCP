@@ -2,10 +2,13 @@ BIDSifyHCP
 
 This tool automatically converts data from the Human Connectome Project (HCP) standard to the Brain Imaging Data Standard (BIDS). 
 
-For this tool to work in your environment, you will need to create your own ".env" file. 
+For this tool to work in your environment, you will need to install the required packages (see: BIDSifyHCP/requirements.txt)
+and you will need to create your own ".env" file. 
 For this you can use the provided "dotenv_template" and just adapt the follwing:
 - The pre_source_dir should be set to where the HCP MR data is saved in a structue complying with the HCP standard - e.g. ".../imagingcollection01"
 - The target_dir is where the BIDS formatted data will be saved - e.g. ".../BIDSified"
+
+You can then run the code using the command /path/to/python /path/to/main.py
 
 This tool will
 1. create the BIDS directory structure for each subject,
@@ -24,7 +27,9 @@ sub-{subject_id}/
     ├── fmap/
     └── func/
 
-If you need to convert other types of data, you can adapt this tool according to your needs.
+This tool also includes a non-sensitive test dataset enabeling you to get hands-on rigth away without the need to aquire additional data. 
+
+If you need to convert other types of data, you can adapt this tool according to your needs due to its modular structure.
 
 If the requirements are satisfied, you are ready to go. Just run main.py and the BIDS formatted data will be saved in the target directory.
     
@@ -38,3 +43,5 @@ and for more information on the HCP please refer to: https://www.humanconnectome
 
 Authors: 
 Christoph V. M. Huettl, Luise da Costa Zemsch, Leon Martin, Rico A. Schmitt, Michael Schirner and Petra Ritter
+
+Copyright © 2025 Charité Universitätsmedizin Berlin.
