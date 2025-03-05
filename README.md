@@ -17,7 +17,9 @@ This tool will
 4. Finally the pipeline will loop through all the subject folders in the pre_source_dir.
 
 Please note that this tool is set up to convert the HCP MR data of the following types to the BIDS format: T1 and T2 from one session as well as resting state fMRI from two sessions.
-The output will be structured as follows: 
+The output will be structured as follows:
+
+```
 sub-{subject_id}/
 ├── ses-1/
 │   ├── anat/
@@ -26,6 +28,7 @@ sub-{subject_id}/
 └── ses-2/
     ├── fmap/
     └── func/
+```
 
 This tool also includes a non-sensitive test dataset enabeling you to get hands-on rigth away without the need to aquire additional data. 
 
