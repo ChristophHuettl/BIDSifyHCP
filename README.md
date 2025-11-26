@@ -30,7 +30,7 @@ sub-{subject_id}/
     └── func/
 ```
 
-This tool also includes a non-sensitive test dataset enabeling you to get hands-on rigth away without the need to aquire additional data. 
+This tool also includes a non-sensitive test dataset enabeling you to get hands-on right away without the need to aquire additional data. 
 
 If you need to convert other types of data, you can adapt this tool according to your needs due to its modular structure.
 
